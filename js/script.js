@@ -1,6 +1,6 @@
 //we get from server and display presentList.json
 $.ajax({
-    url: 'https://blacknumberthree.github.io/test_project/presentList.json',
+    url: 'https://blacknumberthree.github.io/jsonRepository/presentList.json',
     async : true,
     success: function(data){
   	$('.present').append(`(${data.length})`);
@@ -29,7 +29,7 @@ $.ajax({
 });
 //we get from server and display quittingList.json
 $.ajax({
-    url: 'https://blacknumberthree.github.io/test_project/quittingList.json',
+    url: 'https://blacknumberthree.github.io/jsonRepository/quittingList.json',
     async : true,
     success: function(data){
  	    $('.quitting').append(`(${data.length})`);
@@ -60,6 +60,4 @@ $('.left__header').on("click",function(ev){
 	else{
         $(".right").css("border","none")
         } 
-}
-
-)
+})
