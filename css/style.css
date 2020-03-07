@@ -131,7 +131,7 @@ body{
     border-bottom-style: solid; 
     border-bottom-width: 1px;
 }
-.users__user-item:hover{
+.present_people .users__user-item:hover{
   box-shadow: inset 3px 3px 4px rgba(184, 177, 170, 0.1);
 }
 .checked{
