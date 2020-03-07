@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <noscript>
+        <p>Ваш браузер не поддерживает скрипты!</p>
+    </noscript>
+<main class="main"><span>hello</span>
+<section class="right">
+    <div class="right__navbar"> 
+        <span class="right__header">Информация о пациенте </span> 
+    </div>
+    <div class="right__user-info-line">
+        <span class="right__user-info">ФИО:</span>
+        <span class="right__fio-value info-style "></span>
+    </div>
+    <div class="right__user-info-line">
+        <span class="right__user-info">Возраст:</span>
+        <span class="right__age-value info-style"></span>
+    </div>
+     <div class="right__user-info-line">
+        <span class="right__user-info">Диагноз:</span>
+        <span class="right__diagnosis-value info-style"></span>
+    </div>
+</section>
+<section class="left ">
+    <div class="left__navbar"> 
+        <span class="left__header present left__header_active">присутствуют
+             </span> 
+        <span class="left__header quitting">выбывшие
+        </span> 
+    </div>
+    <div class="left-title">
+        <span class="left__all-number">№ ИБ</span>
+        <span class="left__all-fio">ФИО</span>
+        <span class="left__all-room">Палата</span>
+    </div>
+    <div class="users">
+        <ul class="users__list present_people list-visible">
+       </ul>
+       <ul class="users__list quitting_people ">
+       </ul>
+    </div>
+</section>
+</main>
+
+<script  src="https://code.jquery.com/jquery-3.4.1.js"></script> 
+<script src="js/script.js"></script>
+</body>
+
+</html>
